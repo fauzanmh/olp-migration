@@ -6,7 +6,7 @@ Untuk repo ini digunakan sebagai migration database utama
 ### Pertama 
 Jalankan perintah dibawah ini pada cmd:
 
-	go get -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+	go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
 	
 atau ketikkan (menggunakan make file)
 
